@@ -7,7 +7,9 @@
 //
 
 #import "AppDelegate.h"
-
+#import <AMapFoundationKit/AMapFoundationKit.h>
+#import <MAMapKit/MAMapKit.h>
+#import <AMapSearchKit/AMapSearchKit.h>
 
 @interface AppDelegate ()
 
@@ -18,10 +20,11 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
-    
+    [AMapServices sharedServices].apiKey = @"83f2afa7528923dc964b8f621eec9c2d";
     
     return YES;
 }
+
 
 
 - (void)applicationWillResignActive:(UIApplication *)application {

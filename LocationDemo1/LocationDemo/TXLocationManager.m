@@ -76,12 +76,12 @@
                 }
             }else {
                 NSString *currentCity = placeMark.locality;
-                for(int i = 0; i < [currentCity length]; i++) {
-                    NSString *tempStr = [currentCity substringWithRange:NSMakeRange(i,1)];
-                    if ([tempStr isEqualToString:@"市"] && i == currentCity.length-1) {
-                        currentCity = [currentCity substringToIndex:currentCity.length-1];
-                    }
-                }
+//                for(int i = 0; i < [currentCity length]; i++) {
+//                    NSString *tempStr = [currentCity substringWithRange:NSMakeRange(i,1)];
+//                    if ([tempStr isEqualToString:@"市"] && i == currentCity.length-1) {
+//                        currentCity = [currentCity substringToIndex:currentCity.length-1];
+//                    }
+//                }
                 if (weakSelf.successBlock) {
                     weakSelf.successBlock(currentCity);
                 }

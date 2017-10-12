@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D416AE611F8F3F30002A2554 /* AMapFoundationKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D416AE571F8F3E49002A2554 /* AMapFoundationKit.framework */; };
+		D416AE621F8F3F30002A2554 /* AMapSearchKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D416AE581F8F3E4A002A2554 /* AMapSearchKit.framework */; };
+		D416AE631F8F3F30002A2554 /* MAMapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D416AE591F8F3E4A002A2554 /* MAMapKit.framework */; };
+		D416AE651F8F3F51002A2554 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D416AE641F8F3F51002A2554 /* CoreTelephony.framework */; };
+		D416AE671F8F3F62002A2554 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D416AE661F8F3F62002A2554 /* SystemConfiguration.framework */; };
+		D416AE691F8F3F6E002A2554 /* libstdc++.6.0.9.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D416AE681F8F3F6E002A2554 /* libstdc++.6.0.9.tbd */; };
+		D416AE6B1F8F3F78002A2554 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D416AE6A1F8F3F78002A2554 /* libz.tbd */; };
+		D416AE6D1F8F3F80002A2554 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D416AE6C1F8F3F80002A2554 /* libc++.tbd */; };
+		D416AE6F1F8F3F87002A2554 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D416AE6E1F8F3F87002A2554 /* JavaScriptCore.framework */; };
+		D416AE731F8F4A90002A2554 /* CDZPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = D416AE721F8F4A88002A2554 /* CDZPicker.m */; };
 		F17047F51F8F33EB00ACA79C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F17047F41F8F33EB00ACA79C /* AppDelegate.m */; };
 		F17047F81F8F33EB00ACA79C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F17047F71F8F33EB00ACA79C /* ViewController.m */; };
 		F17047FB1F8F33EB00ACA79C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F17047F91F8F33EB00ACA79C /* Main.storyboard */; };
@@ -18,6 +28,17 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D416AE571F8F3E49002A2554 /* AMapFoundationKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AMapFoundationKit.framework; sourceTree = "<group>"; };
+		D416AE581F8F3E4A002A2554 /* AMapSearchKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AMapSearchKit.framework; sourceTree = "<group>"; };
+		D416AE591F8F3E4A002A2554 /* MAMapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MAMapKit.framework; sourceTree = "<group>"; };
+		D416AE641F8F3F51002A2554 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		D416AE661F8F3F62002A2554 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		D416AE681F8F3F6E002A2554 /* libstdc++.6.0.9.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.6.0.9.tbd"; path = "usr/lib/libstdc++.6.0.9.tbd"; sourceTree = SDKROOT; };
+		D416AE6A1F8F3F78002A2554 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		D416AE6C1F8F3F80002A2554 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		D416AE6E1F8F3F87002A2554 /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		D416AE711F8F4A88002A2554 /* CDZPicker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CDZPicker.h; sourceTree = "<group>"; };
+		D416AE721F8F4A88002A2554 /* CDZPicker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CDZPicker.m; sourceTree = "<group>"; };
 		F17047F01F8F33EB00ACA79C /* LocationDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LocationDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F17047F31F8F33EB00ACA79C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F17047F41F8F33EB00ACA79C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -38,13 +59,31 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D416AE6F1F8F3F87002A2554 /* JavaScriptCore.framework in Frameworks */,
+				D416AE6D1F8F3F80002A2554 /* libc++.tbd in Frameworks */,
+				D416AE6B1F8F3F78002A2554 /* libz.tbd in Frameworks */,
+				D416AE691F8F3F6E002A2554 /* libstdc++.6.0.9.tbd in Frameworks */,
+				D416AE671F8F3F62002A2554 /* SystemConfiguration.framework in Frameworks */,
+				D416AE651F8F3F51002A2554 /* CoreTelephony.framework in Frameworks */,
 				F170480E1F8F389400ACA79C /* CoreLocation.framework in Frameworks */,
+				D416AE611F8F3F30002A2554 /* AMapFoundationKit.framework in Frameworks */,
+				D416AE621F8F3F30002A2554 /* AMapSearchKit.framework in Frameworks */,
+				D416AE631F8F3F30002A2554 /* MAMapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D416AE701F8F4A88002A2554 /* CDZPicker */ = {
+			isa = PBXGroup;
+			children = (
+				D416AE711F8F4A88002A2554 /* CDZPicker.h */,
+				D416AE721F8F4A88002A2554 /* CDZPicker.m */,
+			);
+			path = CDZPicker;
+			sourceTree = "<group>";
+		};
 		F17047E71F8F33EB00ACA79C = {
 			isa = PBXGroup;
 			children = (
@@ -65,6 +104,9 @@
 		F17047F21F8F33EB00ACA79C /* LocationDemo */ = {
 			isa = PBXGroup;
 			children = (
+				D416AE571F8F3E49002A2554 /* AMapFoundationKit.framework */,
+				D416AE581F8F3E4A002A2554 /* AMapSearchKit.framework */,
+				D416AE591F8F3E4A002A2554 /* MAMapKit.framework */,
 				F17048091F8F33FD00ACA79C /* TXLocationManager.h */,
 				F170480A1F8F33FE00ACA79C /* TXLocationManager.m */,
 				F17047F31F8F33EB00ACA79C /* AppDelegate.h */,
@@ -74,6 +116,7 @@
 				F17047F91F8F33EB00ACA79C /* Main.storyboard */,
 				F17047FC1F8F33EB00ACA79C /* Assets.xcassets */,
 				F17047FE1F8F33EB00ACA79C /* LaunchScreen.storyboard */,
+				D416AE701F8F4A88002A2554 /* CDZPicker */,
 				F17048011F8F33EB00ACA79C /* Info.plist */,
 				F17048021F8F33EB00ACA79C /* main.m */,
 			);
@@ -83,6 +126,12 @@
 		F170480C1F8F389300ACA79C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D416AE6E1F8F3F87002A2554 /* JavaScriptCore.framework */,
+				D416AE6C1F8F3F80002A2554 /* libc++.tbd */,
+				D416AE6A1F8F3F78002A2554 /* libz.tbd */,
+				D416AE681F8F3F6E002A2554 /* libstdc++.6.0.9.tbd */,
+				D416AE661F8F3F62002A2554 /* SystemConfiguration.framework */,
+				D416AE641F8F3F51002A2554 /* CoreTelephony.framework */,
 				F170480D1F8F389400ACA79C /* CoreLocation.framework */,
 			);
 			name = Frameworks;
@@ -162,6 +211,7 @@
 				F17047F81F8F33EB00ACA79C /* ViewController.m in Sources */,
 				F17048031F8F33EB00ACA79C /* main.m in Sources */,
 				F170480B1F8F33FE00ACA79C /* TXLocationManager.m in Sources */,
+				D416AE731F8F4A90002A2554 /* CDZPicker.m in Sources */,
 				F17047F51F8F33EB00ACA79C /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -298,6 +348,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5Y5SPP5LY6;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/LocationDemo",
+				);
 				INFOPLIST_FILE = LocationDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.roger.haha;
@@ -312,6 +366,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5Y5SPP5LY6;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/LocationDemo",
+				);
 				INFOPLIST_FILE = LocationDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.roger.haha;
